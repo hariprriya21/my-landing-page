@@ -10,7 +10,7 @@
     padding: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(111.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     min-height: 100vh;
     height:109vh;
@@ -195,5 +195,6 @@ ul li a:hover{
     background-color: #fff;
 }
  
+
 
 
