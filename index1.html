@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fade In Example</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .main {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    img {
+      width: 300px;
+      margin-top: 10px;
+      animation: fadeIn 1s ease-in;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <h1>Welcome</h1>
+    <p>This is my animated page ✨</p>
+    <img src="paris.jpg" alt="Paris">
+    <img src="tokyo.jpg" alt="Tokyo">
+    <img src="bali.jpeg" alt="Bali">
+    <img src="new york.jpg" alt="New york">
+  </div>
+
+</body>
+</html>
