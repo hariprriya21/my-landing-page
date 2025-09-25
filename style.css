@@ -16,6 +16,31 @@
     height:109vh;
 }
 
+/* Content box for better readability */
+.content {
+    background: rgba(0,0,0,0.5);  /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+    body {
+        background-position: top; /* Keeps main part of image visible */
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
 .navbar{
     width: 1200px;
     height: 75px;
@@ -170,4 +195,5 @@ ul li a:hover{
     background-color: #fff;
 }
  
+
 
